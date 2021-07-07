@@ -22,6 +22,17 @@
                                 color: rgb(3, 9, 88);
                                 text-decoration: underline;
                         }
+                        a {
+                                font: 600 1.25rem "Roboto", sans-serif;
+                                color: #111;
+                                transition: 0.2s ease all;
+                                text-decoration: none;
+                                &:hover {
+                                        cursor: pointer;
+                                        color: rgb(3, 9, 88);
+                                        text-decoration: underline;
+                                }
+                        }
                 }
         }
         button {
@@ -33,6 +44,11 @@
                 cursor: pointer;
                 margin: 0.5rem;
                 transition: 0.2s ease all;
+                a {
+                        font: 600 1rem "Roboto", sans-serif;
+                        text-decoration: none;
+                        color: #000;
+                }
                 &:hover {
                         border: 0.25rem solid #222;
                         background: #fefefefe;

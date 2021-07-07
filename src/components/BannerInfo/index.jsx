@@ -1,11 +1,8 @@
 import './module.style.scss';
-
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-AOS.init({
-        // useClassNames: true,
-        // disableMutationObserver: true,
-});
+
+AOS.init();
 export function BannerInfo() {
         return (
                 <>
