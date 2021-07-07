@@ -24,7 +24,7 @@ export function BannerInfo() {
                                         <div id="social_network">
                                                 <a href="https://www.facebook.com/Guilhermehls/" target="_blank"><i className="fab fa-facebook-f"></i></a>
                                                 <a href="https://github.com/sirguilherme97" target="_blank"><i className="fab fa-github"></i></a>
-                                                <a href="https://twitter.com/Sir_Guilherme_" target="_blank"><i className="fab fa-twitter"></i></a>
+                                                <a href="https://play.google.com/store/apps/details?id=com.partitura" target="_blank"><i class="fab fa-google-play"></i></a>
                                                 <a href="https://www.linkedin.com/in/sirguilherme97/" target="_blank"><i className="fab fa-linkedin"></i></a>
                                         </div>
                                 </div>
