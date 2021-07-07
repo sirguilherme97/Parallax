@@ -1,0 +1,68 @@
+#header {
+        width: 100vw;
+        height: 10vh;
+        background: var(--yellow500);
+        display: flex;
+        gap: 3rem;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        #contato {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                flex-direction: row;
+                #contato_phone {
+                        padding: 0.5rem 1rem;
+                        display: flex;
+                        gap: 1rem;
+                        i {
+                                width: 1rem;
+                                height: 1rem;
+                        }
+                        h3 {
+                                cursor: default;
+                                text-align: center;
+                                color: #222;
+                                font: 500 1rem "Roboto", sans-serif;
+                        }
+                }
+                #contato_email {
+                        padding: 0.5rem 1rem;
+                        display: flex;
+                        gap: 1rem;
+                        i {
+                                width: 1rem;
+                                height: 1rem;
+                        }
+                        h3 {
+                                cursor: default;
+                                text-align: center;
+                                color: #222;
+                                font: 500 1rem "Roboto", sans-serif;
+                        }
+                }
+        }
+        #social {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                flex-direction: row;
+                #social_network {
+                        padding: 0.5rem 1rem;
+                        display: flex;
+                        gap: 1rem;
+                        a {
+                                text-decoration: none;
+                                color: #000;
+                                &:visited {
+                                        color: #000;
+                                }
+                                i {
+                                        width: 1rem;
+                                        height: 1rem;
+                                }
+                        }
+                }
+        }
+}

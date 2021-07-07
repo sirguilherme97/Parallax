@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+        padding: 0rem;
+        margin: 0rem;
+        box-sizing: border-box;
+}
+html {
+        scrollbar-width: 800px;
+}
+#root {
+        background: linear-gradient(
+                90deg,
+                rgba(227, 227, 227, 1) 0%,
+                rgba(235, 235, 235, 1) 25%,
+                rgba(247, 247, 247, 1) 75%,
+                rgba(223, 223, 223, 1) 100%
+        );
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        justify-content: center;
+        padding-top: 1.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 5rem;
+        font: 400 1.1rem "Ubuntu", sans-seri;
+}
+#root #nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+#root #nav #title {
+        margin-top: 2rem;
+        color: #611296;
+        padding: 1rem;
+        border: 5px solid #8a55ad;
+        font: 600 1.5rem "Ubuntu", sans-seri;
+}
+#root #nav #title::selection {
+        color: #611296;
+        background: rgba(0, 0, 0, 0.1);
+}
+#root #nav #sub {
+        padding: 1rem;
+        font: 500 1.125rem "Ubuntu", sans-seri;
+        margin-top: 1.5rem;
+}
+#root #nav #sub::selection {
+        color: #555;
+        background: #fadf66;
+}
+#root #section {
+        display: flex;
+        flex-direction: row;
+        margin: 1.5rem auto;
+        width: 95%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+}
+#root #section .card {
+        display: flex;
+        padding: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+#root #section .card > p {
+        padding-bottom: 1rem;
+}
+#root #section .card img {
+        margin-top: 1.5rem;
+        border-radius: 0.5rem;
+        box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.25);
+        width: 85%;
+        /*width:32rem;*/
+        height: 45%;
+        /*height:19rem;*/
+}
+#root #section .card img::selection {
+        background: #aaa;
+}
+#root #section strong::selection {
+        color: red;
+        background: pink;
+}
+#root #section .red::selection {
+        color: #db0214;
+        background: pink;
+}
+#root #section .green::selection {
+        color: #555;
+        background: #81e366;
+}
+#root #section .black::selection {
+        color: #111;
+        background: rgba(0, 0, 0, 0.4);
+}
