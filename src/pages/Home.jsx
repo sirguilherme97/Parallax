@@ -7,7 +7,7 @@ import { Nav } from '../components/Nav'
 import { Footer } from '../components/Footer'
 import { ContentReverse } from '../components/Content/indexReverse'
 
-export function App() {
+export function Home() {
       return (
             <>
                   <Helmet>

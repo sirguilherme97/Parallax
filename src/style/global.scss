@@ -40,3 +40,20 @@ body {
         --yellow500T: #ffd803aa;
         --purple600: #460161;
 }
+
+#notFound {
+        margin-top: 10rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        h1 {
+                font: 900 7rem "Roboto", sans-serif;
+                color: var(--yellow500);
+        }
+        h3 {
+                font: 500 3rem "Roboto", sans-serif;
+                color: #111;
+        }
+}
