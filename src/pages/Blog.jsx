@@ -15,7 +15,7 @@ export function Blog() {
                   <BannerInfo />
                   <Nav data_aos="fade" />
                   <Content
-                        title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus  placeat  [ About us ]  Eum, asperiores quidem. Sequi, deserunt! "
+                        title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus  placeat. Eum, asperiores quidem. Sequi, deserunt! "
                         subOne="Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit."
                         subTwo="Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit."
                   />
