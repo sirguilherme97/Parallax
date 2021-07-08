@@ -21,27 +21,26 @@
                         display: flex;
                         flex-direction: column;
                         gap: 2.5rem;
-                        strong {
-                                font: 500 1.25rem "Roboto", sans-serif;
-                        }
+                        font: 400 1.25rem "Roboto", sans-serif;
                 }
         }
         #content2 {
                 display: flex;
                 flex-direction: row-reverse;
-                h1 {
-                        border: 0.5rem solid var(--yellow500);
-                        padding: 2rem;
-                        margin-left: 5rem;
-                        cursor: pointer;
-                        transition: 0.2s ease all;
-                }
                 #aux {
                         display: flex;
                         flex-direction: column;
                         gap: 2.5rem;
-                        strong {
-                                font: 500 1.25rem "Roboto", sans-serif;
+
+                        #title {
+                                strong {
+                                        font: 400 2.5rem "Roboto", sans-serif;
+                                }
+                        }
+                        #sub {
+                                strong {
+                                        font: 500 1.25rem "Roboto", sans-serif;
+                                }
                         }
                 }
         }

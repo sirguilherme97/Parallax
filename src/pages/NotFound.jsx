@@ -1,11 +1,11 @@
 import '../style/global.scss'
 import { Helmet } from 'react-helmet'
-import { Content } from '../components/Content'
 import { BannerInfo } from '../components/BannerInfo'
 import { Nav } from '../components/Nav'
-import { Footer } from '../components/Footer'
-import { ContentReverse } from '../components/Content/indexReverse'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 export function NotFound() {
       return (
             <>
@@ -14,8 +14,16 @@ export function NotFound() {
                   </Helmet>
                   <BannerInfo />
                   <Nav />
-                  <div id="notFound">
-                        <h1>404</h1><h3> - </h3><h3>Not Found</h3>
+                  <div id="notFound" >
+                        <div id="code" data-aos="fade" data-aos-easing="ease-in-out" data-aos-duration="4000" data-aos-delay="3550 ">
+                              <h1>404</h1>
+                        </div>
+                        <div id="ponto" data-aos="fade" data-aos-easing="ease-in-out" data-aos-duration="4000" data-aos-delay="3550 ">
+                              <h3 > - </h3>
+                        </div>
+                        <div id="subCode" data-aos="fade-left" data-aos-easing="ease-in-out" data-aos-duration="4000" data-aos-delay="3550 ">
+                              <h3>¯\_(ツ)_/¯</h3>
+                        </div>
                   </div>
             </>
       )

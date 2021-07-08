@@ -48,12 +48,25 @@ body {
         justify-content: center;
         align-items: center;
         gap: 2rem;
-        h1 {
-                font: 900 7rem "Roboto", sans-serif;
-                color: var(--yellow500);
+
+        #ponto {
+                h3 {
+                        font: 600 3rem "Roboto", sans-serif;
+                        color: #111;
+                }
         }
-        h3 {
-                font: 500 3rem "Roboto", sans-serif;
-                color: #111;
+        #code {
+                h1 {
+                        font: 900 7rem "Roboto", sans-serif;
+                        color: var(--yellow500);
+                }
+        }
+        #subCode {
+                display: flex;
+                // margin-left: 0.5rem;
+                h3 {
+                        font: 600 3rem "Roboto", sans-serif;
+                        color: #111;
+                }
         }
 }

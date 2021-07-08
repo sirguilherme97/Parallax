@@ -10,7 +10,7 @@ export function Banner() {
                                 <div id="content" >
                                         <h1>Lorem ipsum</h1>
                                         <strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</strong>
-                                        <button type="button">Send a free Request</button>
+                                        <button type="button">Solicite um pedido</button>
                                 </div>
                         </div>
                 </>

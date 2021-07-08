@@ -10,12 +10,12 @@ export function Contact() {
       return (
             <>
                   <Helmet>
-                        <title>Parallax |  Contact Us</title>
+                        <title>Parallax | Mande sua mensagem</title>
                   </Helmet>
                   <BannerInfo />
-                  <Nav />
-                  <Content />
-                  <ContentReverse />
+                  <Nav data_aos="fade" />
+                  <Content title="call of duty" />
+                  {/* <ContentReverse /> */}
                   <Footer />
             </>
       )
