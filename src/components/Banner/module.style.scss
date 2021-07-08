@@ -11,6 +11,7 @@
         justify-content: flex-start;
         align-items: center;
         transition: 1s ease all;
+        box-shadow: 0rem 3em 5rem #c0c0c0c0;
         &:hover {
                 filter: saturate(4);
                 filter: brightness(120%);
