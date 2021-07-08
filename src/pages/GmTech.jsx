@@ -14,7 +14,7 @@ export function GmTech() {
                         </Helmet>
                         <BannerInfo />
                         <Nav />
-                        <div id="gmtech" >
+                        <div id="gmtech" data-aos="fade-up" data-aos-offset="16" data-aos-delay="50" data-aos-duration="40" data-aos-easing="linear" data-aos-mirror=" true " data-aos-once=" false " >
                                 <li><a href="https://www.facebook.com/GMTechBR" target="_blank" rel="noreferrer">GM Tech</a></li>
                         </div>
                 </>
