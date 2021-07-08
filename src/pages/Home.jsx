@@ -7,7 +7,6 @@ import { Nav } from '../components/Nav'
 import { Footer } from '../components/Footer'
 import { ContentReverse } from '../components/Content/indexReverse'
 export function Home() {
-      const dna = true;
       return (
             <>
                   <Helmet>

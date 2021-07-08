@@ -41,6 +41,29 @@ body {
         --purple600: #460161;
 }
 
+#gmtech {
+        display: flex;
+        width: 100vw;
+        height: 75vh;
+        justify-content: center;
+        background-color: #111;
+        align-items: center;
+        li {
+                list-style: none;
+                a {
+                        text-decoration: none;
+                        font: 600 7rem "Roboto", sans-serif;
+                        background-color: #111;
+                        color: #dbdcdd;
+                        transition: 0.5s ease;
+                        &:hover {
+                                text-shadow: 0rem 0rem 3rem rgba(218, 219, 220, 0.3);
+                                color: #fff;
+                        }
+                }
+        }
+}
+
 #notFound {
         margin-top: 10rem;
         display: flex;

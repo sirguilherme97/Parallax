@@ -15,10 +15,10 @@ export function Footer() {
                                 </div>
                                 <div id="social" data-aos="fade">
                                         <ul>
-                                                <li><a href="https://www.facebook.com/Guilhermehls/" target="_blank"><i className="fab fa-facebook"></i></a></li>
-                                                <li><a href="https://github.com/sirguilherme97" target="_blank"><i className="fab fa-github"></i></a></li>
-                                                <li><a href="https://www.youtube.com/channel/UCrhKC4TO2fF9p_fHZiYYlyA" target="_blank"><i className="fab fa-youtube"></i></a></li>
-                                                <li><a href="https://twitter.com/Sir_Guilherme_" target="_blank"><i className="fab fa-twitter"></i></a></li>
+                                                <li><a href="https://www.facebook.com/Guilhermehls/" rel="noreferrer" target="_blank"><i className="fab fa-facebook"></i></a></li>
+                                                <li><a href="https://github.com/sirguilherme97" rel="noreferrer" target="_blank"><i className="fab fa-github"></i></a></li>
+                                                <li><a href="https://www.youtube.com/channel/UCrhKC4TO2fF9p_fHZiYYlyA" rel="noreferrer" target="_blank"><i className="fab fa-youtube"></i></a></li>
+                                                <li><a href="https://twitter.com/Sir_Guilherme_" rel="noreferrer" target="_blank"><i className="fab fa-twitter"></i></a></li>
                                         </ul>
                                 </div>
                         </div>
