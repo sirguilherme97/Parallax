@@ -23,8 +23,6 @@ export function Carrossel() {
                                         </div>
                                         <div class="item"><img src={f4} /></div>
                                         <div class="item"><img src={f5} /></div>
-                                        <div class="item"><img src={f6} /></div>
-                                        <div class="item"><img src={f7} /></div>
                                 </div>
                         </div>
                 </>
