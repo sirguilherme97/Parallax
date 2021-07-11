@@ -22,7 +22,6 @@
         }
         #social {
                 margin: 2rem;
-
                 ul {
                         display: flex;
                         flex-direction: column;
@@ -33,32 +32,26 @@
                         a {
                                 text-decoration: none;
                                 color: white;
-                                box-shadow: 0rem 0rem 1rem rgba(255, 255, 255, 0.1);
+                                // box-shadow: 0rem 0rem 1rem rgba(255, 255, 255, 0.1);
                                 transition: 2s ease all;
-                                &:hover {
-                                }
                                 &:visited {
                                         color: white;
                                 }
                                 .fa-github:hover {
                                         transition: 0.5s ease all;
                                         color: rgba(255, 255, 255, 1);
-                                        box-shadow: 0rem 0rem 2rem rgb(236, 236, 236);
                                 }
                                 .fa-facebook:hover {
                                         transition: 0.5s ease all;
                                         color: #1095f4;
-                                        box-shadow: 0rem 0rem 2rem #3c83c5;
                                 }
                                 .fa-youtube:hover {
                                         transition: 0.5s ease all;
                                         color: #ff0000;
-                                        box-shadow: 0rem 0rem 2rem #ff0000;
                                 }
                                 .fa-twitter:hover {
                                         transition: 0.5s ease all;
                                         color: #1a91da;
-                                        box-shadow: 0rem 0rem 2rem rgba(11, 230, 230, 0.7);
                                 }
                         }
                 }

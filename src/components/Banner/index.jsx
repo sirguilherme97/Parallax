@@ -1,6 +1,5 @@
 import './module.style.scss'
 import { useHistory } from 'react-router-dom';
-
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
