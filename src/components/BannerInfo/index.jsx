@@ -10,7 +10,7 @@ export function BannerInfo() {
                                 <div id="contato">
                                         <div id="contato_phone">
                                                 <i className="fas fa-phone"></i>
-                                                <h3 data-aos="fade-down">(51) 9 9413-4212</h3>
+                                                <h3 data-aos="fade-down">+55(51)98993-9977</h3>
                                         </div>
                                         <div id="contato_email">
                                                 <i className="fas fa-envelope"></i>
